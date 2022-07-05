@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vue:dev": "pnpm --filter vite-vue-demo run dev",
+    "vue:build": "pnpm --filter vite-vue-demo run build",
+    "react:dev": "pnpm --filter vite-react-demo run dev",
+    "react:build": "pnpm --filter vite-react-demo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
